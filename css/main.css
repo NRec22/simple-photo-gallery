@@ -36,12 +36,14 @@ too.
 
     /* The content div in our HTML can't get wider than 1100px. */
     max-width: 1100px;
+
+    background-color: #D2D2D2;
 }
 
 .title {
     /* This is a "font stack"; if the first font isn't available,
     the fallback will be loaded. You can make this list as long as you want. */
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Orbitron', sans-serif;
 
     /* Sets the thickness of our font. */
     font-weight: 200;
@@ -50,6 +52,8 @@ too.
     text-align: center;
 
     margin: 35px auto;
+
+    background-color: #9BCBFF;
 }
 
 .row {
@@ -67,7 +71,7 @@ too.
     room for other elements. Try messing with it! */
     display: inline-block;
 
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
 .img-responsive {
